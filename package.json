@@ -6,7 +6,7 @@
   "author": "Shinnosuke Watanabe (https://github.com/shinnn)",
   "scripts": {
     "pretest": "eslint --fix --format=codeframe index.js test.js",
-    "test": "istanbul cover test.js"
+    "test": "nyc node test.js"
   },
   "license": "CC0-1.0",
   "files": [
@@ -22,8 +22,8 @@
   ],
   "devDependencies": {
     "@shinnn/eslint-config-node": "^4.0.2",
-    "eslint": "^4.2.0",
-    "istanbul": "^0.4.5",
+    "eslint": "^4.3.0",
+    "nyc": "^11.1.0",
     "pretend-platform": "^2.0.0",
     "tape": "^4.7.0"
   },
