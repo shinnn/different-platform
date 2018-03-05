@@ -1,6 +1,6 @@
 {
 	"name": "different-platform",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Return 'linux' on Windows, otherwise return 'win32'",
 	"repository": "shinnn/different-platform",
 	"author": "Shinnosuke Watanabe (https://github.com/shinnn)",
